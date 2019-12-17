@@ -1,0 +1,16 @@
+{
+  "name": "rs-file-joiner",
+  "version": "1.0.0",
+  "description": "File joiner",
+  "private": true,
+  "scripts": {
+    "ex": "chmod +x ./file-joiner.js",
+    "link" : "npm link",
+    "unlink" : "npm unlink"
+  },
+  "author": "Robert Seifert",
+  "license": "MIT",
+  "bin" : {
+    "join-files" : "./file-joiner.js"
+  }
+}
